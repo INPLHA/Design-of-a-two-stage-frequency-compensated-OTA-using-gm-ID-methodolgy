@@ -1,0 +1,29 @@
+.lib "/home/bhuvan/skywater-pdk/libraries/sky130_fd_pr/latest/models/sky130.lib.spice" tt
+xm1  net-_m1-pad1_ net-_m1-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 W=3.14 L=0.15
+v1 net-_m1-pad1_ gnd  dc 1.7
+v2 net-_m1-pad2_ gnd  dc 1.2
+.op
+.control
+let idval = unitvec(171)
+let gmval = unitvec(171)
+let gdsval = unitvec(171)
+let start = 0
+let stop = 1.71
+let delta = 0.01
+let c = start
+while c le stop
+alter v2 c
+run
+let idval[c*100] = @m.xm1.msky130_fd_pr__nfet_01v8[id]
+let gmval[c*100] = @m.xm1.msky130_fd_pr__nfet_01v8[gm]
+let gdsval[c*100] = @m.xm1.msky130_fd_pr__nfet_01v8[gds]
+let c = c + delta
+end
+setplot new
+compose xx start=0 stop=1.7 step=0.01
+let idn = idval
+let gdsn = gdsval
+let gmn = gmval
+display
+.endc
+.end
