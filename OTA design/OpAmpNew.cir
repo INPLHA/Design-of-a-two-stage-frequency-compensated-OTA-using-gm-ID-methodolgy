@@ -1,0 +1,27 @@
+* /home/bhuvan/esim-workspace/opampnew/opampnew.cir
+.lib "/home/bhuvan/skywater-pdk/libraries/sky130_fd_pr/latest/models/sky130.lib.spice" tt
+xm3  net-_m2-pad1_ net-_m2-pad1_ vcc vcc sky130_fd_pr__pfet_01v8 W=4.5 L=0.15
+xm5  out1 net-_m2-pad1_ vcc vcc sky130_fd_pr__pfet_01v8 W=4.5 L=0.15
+xm2  net-_m2-pad1_ inp gv gnd sky130_fd_pr__nfet_01v8 W=36.05 L=0.15
+xm6  out1 inn gv gnd sky130_fd_pr__nfet_01v8 W=36.05 L=0.15
+xm4  gv net-_i1-pad2_ net-_m4-pad3_ gnd sky130_fd_pr__nfet_01v8 W=0.42 L=0.15
+xm8  out2 out1 vcc vcc sky130_fd_pr__pfet_01v8 W=99 L=0.15
+xm7  out2 net-_i1-pad2_ net-_m7-pad3_ gnd sky130_fd_pr__nfet_01v8 W=3 L=0.15
+v2 inn gnd  dc 1.5
+*v10 innx gnd  dc 1.5
+*v8 inpx gnd dc 1.5
+*v1 inp inpx sine(0 5m 1k 0 0)
+*v9 inn innx sine(0 -5m 1k 0 0)
+*v1 inp inpx pulse(0 5m 0 0 0 1m 2m)
+*v9 inn innx pulse(0 -5m 0 0 0 1m 2m)
+v1 inp inn pulse(0 10m 0 0 0 1m 2m)
+*v7 abc gnd sine(0 5m 1k 0 0)
+*v1 inp inn ac 10m
+xm1  net-_i1-pad2_ net-_i1-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 W=0.42 L=0.15
+c1 out2 gnd 10p
+c2 out2 out1 2.2p
+v3 vcc gnd  dc 3.3
+i1 vcc net-_i1-pad2_  dc 30u
+v4 net-_m4-pad3_ gnd  dc 0
+v5 net-_m7-pad3_ gnd  dc 0
+.end
