@@ -11,6 +11,9 @@
 	* [Magic](#Magic)
 
 * [Project Files](#Project-Files)
+        * [Schematic on eSim](#Schematic-on-eSim)
+	* [Simulations](#Simulations)
+	* [Magic Layout](#Magic-Layout)
 
 
 ## Abstract
@@ -46,7 +49,7 @@ http://ngspice.sourceforge.net/docs.html
 It is an Online Web Browser IDE for Verilog/System-verilog/TL-Verilog Simulation. Refer
 </br> https://www.makerchip.com/
 ## Project Files
-Schematic on eSim
+### Schematic on eSim
 ![image](https://user-images.githubusercontent.com/96485068/190372496-e386c49f-87a9-45f7-b906-bf20354fcc87.png)
 
 ### Simulations
