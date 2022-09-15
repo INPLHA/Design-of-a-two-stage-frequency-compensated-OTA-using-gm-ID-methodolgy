@@ -11,18 +11,7 @@
 	* [Magic](#Magic)
 
 * [Project Files](#Project-Files)
-*  * [Gm/Id parameter extraction](#Gm/Id-parameter-extraction)
-    * [Schematic](#Schematic)
-      
-    * [Netlist generated](#Netlist-generated)
-        * [PreLayout Simulations](#PreLayout-Simulation)
-    * [Magic Layout](#Magic-Layout)
-    * [Post Layout Simulations](#Post-Layout-Simulation)
-* [Project methodology](#Project-methodology)
-* [Conclusion](#Conclusion)
-* [Author](#Author)
-* [Acknowledgement](#Acknowledgement)
-* [References](#References)
+
 
 ## Abstract
 
@@ -39,9 +28,26 @@ Transistor parameter
 | M7 |  11.3   | 3|330 |
 | M1,4  |  11.3  |0.42 |30 |
 
+## Tools used
+### eSim
 
+It is an Open Source EDA developed by FOSSEE, IIT Bombay. It is used for electronic circuit simulation. It is made by the combination of two software namely NgSpice and KiCAD.
 
+For more details refer:
+</br>
+https://esim.fossee.in/home
 
+### NgSpice
+It is an Open Source Software for Spice Simulations. For more details refer:
+
+http://ngspice.sourceforge.net/docs.html
+
+### Magic
+It is an Online Web Browser IDE for Verilog/System-verilog/TL-Verilog Simulation. Refer
+</br> https://www.makerchip.com/
+## Project Files
+Schematic on eSim
+![image](https://user-images.githubusercontent.com/96485068/190372496-e386c49f-87a9-45f7-b906-bf20354fcc87.png)
 
 ### Simulations
 
