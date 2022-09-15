@@ -43,6 +43,15 @@ Transistor parameter
 
 
 
+### Simulations
+
+
+|Analysis| Prelayout |Postlayout |
+|:-----:|:-----:|:------:|
+|Output waveform (differential input)|![tranout](https://user-images.githubusercontent.com/96485068/190374441-f5445593-f245-461c-86b0-a4b6cd68f6b1.jpg)| ![tranoutp](https://user-images.githubusercontent.com/96485068/190202488-7d307ef7-7b36-4d17-8219-2f7251b0afa4.jpg)	|
+|Output waveform (common mode input)| ![trancm2](https://user-images.githubusercontent.com/96485068/190374175-ebf6e3c2-1bff-415b-a3a2-a973a37bb0cb.jpg)|  ![trancm2p](https://user-images.githubusercontent.com/96485068/190203031-d347076d-44a6-40d1-b497-84a004a41adb.jpg) |
+|Gain Plot| 010   | ![acoutp](https://user-images.githubusercontent.com/96485068/190203643-bb3716be-3fa9-4dab-8815-abc5c693e714.jpg)   |
+|Output waveform phase plot|011   |  ![acphasep](https://user-images.githubusercontent.com/96485068/190203972-333cd82a-89cf-4bf3-afe7-658fe2983561.jpg) |
 
 
 
@@ -52,20 +61,5 @@ Transistor parameter
 ![image](https://user-images.githubusercontent.com/96485068/190201225-8154ed62-c1d9-44e3-be8c-d01f9035590b.png)
 
 
-### Post Layout Simulations
-
-![tranoutp](https://user-images.githubusercontent.com/96485068/190202488-7d307ef7-7b36-4d17-8219-2f7251b0afa4.jpg)
-Figure  : PostLayout Transient analysis (Differential Input)
-
-
-
-![trancm2p](https://user-images.githubusercontent.com/96485068/190203031-d347076d-44a6-40d1-b497-84a004a41adb.jpg)
-Figure  : PostLayout Transient analysis ( Common Mode Input)
-
-![acoutp](https://user-images.githubusercontent.com/96485068/190203643-bb3716be-3fa9-4dab-8815-abc5c693e714.jpg)
-Figure  : PostLayout Gain Plot
-
-![acphasep](https://user-images.githubusercontent.com/96485068/190203972-333cd82a-89cf-4bf3-afe7-658fe2983561.jpg)
-Figure  : PostLayout Phase Plot
 
 
