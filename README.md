@@ -50,8 +50,8 @@ Transistor parameter
 |:-----:|:-----:|:------:|
 |Output waveform (differential input)|![tranout](https://user-images.githubusercontent.com/96485068/190374441-f5445593-f245-461c-86b0-a4b6cd68f6b1.jpg)| ![tranoutp](https://user-images.githubusercontent.com/96485068/190202488-7d307ef7-7b36-4d17-8219-2f7251b0afa4.jpg)	|
 |Output waveform (common mode input)| ![trancm2](https://user-images.githubusercontent.com/96485068/190374175-ebf6e3c2-1bff-415b-a3a2-a973a37bb0cb.jpg)|  ![trancm2p](https://user-images.githubusercontent.com/96485068/190203031-d347076d-44a6-40d1-b497-84a004a41adb.jpg) |
-|Gain Plot| 010   | ![acoutp](https://user-images.githubusercontent.com/96485068/190203643-bb3716be-3fa9-4dab-8815-abc5c693e714.jpg)   |
-|Output waveform phase plot|011   |  ![acphasep](https://user-images.githubusercontent.com/96485068/190203972-333cd82a-89cf-4bf3-afe7-658fe2983561.jpg) |
+|Gain Plot| ![acout](https://user-images.githubusercontent.com/96485068/190375279-be0df136-12c7-4caf-954f-67ba2f509f4c.jpg) | ![acoutp](https://user-images.githubusercontent.com/96485068/190203643-bb3716be-3fa9-4dab-8815-abc5c693e714.jpg)   |
+|Output waveform phase plot|![acphase](https://user-images.githubusercontent.com/96485068/190375621-39b0e234-fa2c-4509-8fbe-1e7c851b5b5c.jpg) |  ![acphasep](https://user-images.githubusercontent.com/96485068/190203972-333cd82a-89cf-4bf3-afe7-658fe2983561.jpg) |
 
 
 
